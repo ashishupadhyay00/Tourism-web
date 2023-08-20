@@ -1,0 +1,699 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+html {
+  /* height: 100%; */
+  scroll-behavior: smooth;
+}
+
+body {
+  height: auto;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: top;
+  width: 100%;
+  background-image: url(images/banner-bg.png);
+
+  overflow-x: hidden;
+}
+/* ........................................... */
+/* navigation item */
+.nav-head {
+  /* background: #155710; */
+  color: #fbfbfb;
+  margin-top: 18px;
+}
+
+.heading {
+  top: 15px;
+  position: relative;
+  font-size: 30px;
+  margin: 0px 18px;
+}
+.heading a {
+  text-decoration: none;
+  color: #fbfbfb;
+}
+.heading a:hover {
+  cursor: pointer;
+  color: #bfd3c3;
+}
+.container-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.container-list li > a {
+  padding: 0px 21px;
+  margin: -4px 10px;
+  position: relative;
+  top: -10px;
+  font-size: 21px;
+  font-weight: 900;
+  text-decoration: none;
+  color: #fbfbfb;
+}
+.container-list li a:hover {
+  color: #bfd3c3;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.nav-btn {
+  display: inline-block;
+  position: relative;
+  left: 1308px;
+  /* left: 1176px; */
+  /* top: -48px; */
+  top: -48px;
+}
+.nav-btn button {
+  /* background: #155710; */
+  color: #fbfbfb;
+
+  padding: 3px 8px;
+  margin: auto;
+  font-weight: 600;
+  background-color: transparent;
+  border: none;
+  font-weight: 800;
+  font-size: 15px;
+}
+.nav-btn button a {
+  text-decoration: none;
+  color: #fbfbfb;
+}
+.nav-btn button:hover {
+  color: #bfd3c3;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.nav-btn button:hover {
+  color: #bfd3c3;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.slide > h1 {
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  margin: 205px 0px;
+  font-size: 33px;
+}
+
+.slide > p {
+  margin: -163px 42px;
+}
+/* ................................................... */
+/* body item */
+.bg-img {
+  overflow: hidden;
+  width: 100%;
+  height: 60%;
+}
+.bg-img img {
+  margin-bottom: -5px;
+}
+#img1 img {
+  /* width: 90%; */
+}
+
+.crousal-container {
+  width: 88%;
+  height: 505px;
+  margin: auto;
+  margin-top: 65px;
+  box-shadow: 0px 0px 13px grey;
+  border: 2px solid;
+  color: #fff;
+  border-radius: 42px;
+}
+
+/* ......................................................  */
+/* form item  */
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border: 1px solid #fff;
+  border-radius: 44px;
+  width: 66%;
+  margin: 25px auto;
+  height: auto;
+}
+
+.form {
+  margin: 39px;
+  display: inline-block;
+}
+.login {
+  border: 1px solid #fff;
+  border-radius: 44px;
+  height: 300px;
+  position: relative;
+  top: 32px;
+}
+.form label {
+  color: #fbfbfb;
+  padding: 0px 8px;
+  font-size: 25px;
+  /* font-weight: 600; */
+}
+
+.form input {
+  padding: 15px 119px;
+  margin: 7px;
+  border-radius: 22px;
+}
+.emailcls {
+  position: relative;
+  left: 58px;
+}
+.adrcls {
+  position: relative;
+  left: 25px;
+}
+.phncls {
+  position: relative;
+  left: 7px;
+}
+.psdcls {
+  position: relative;
+  left: 10px;
+}
+.sub-btn {
+  border: 2px solid #fff;
+  color: #fff;
+  background: transparent;
+  display: flex;
+  margin: auto;
+  padding: 10px 80px;
+  font-size: 19px;
+  border-radius: 25px;
+  font-weight: 800;
+  position: relative;
+  left: 56px;
+}
+
+.sub-btn:hover {
+  cursor: pointer;
+  color: #bfd3c3;
+}
+.form > a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+  left: 256px;
+  top: -33px;
+}
+
+.form > a:hover {
+  color: #bfd3c3;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* .............packages-card......................... */
+/* .maincards {
+  /* position: relative; */
+/* top: 134px; */
+/* display: inline-flex; */
+/* margin: 78px 12px; */
+/* } */
+.maincards {
+  margin: 20px 46px;
+}
+.pkg {
+  /* border: 2px solid maroon; */
+  margin: 410px 0px;
+  position: relative;
+}
+.pkgheading {
+  position: relative;
+  top: 9px;
+  left: 71px;
+}
+.pkgheading > p {
+  margin-top: 8px;
+}
+
+.cards {
+  width: 27%;
+  /* border: 2px solid white; */
+  /* border-top-right-radius: 104px; */
+  /* border-top-left-radius: 6px; */
+  border-radius: 14px;
+  display: inline-block;
+  margin: 32px 36px;
+  position: relative;
+  top: 82px;
+}
+
+.cards:hover {
+  box-shadow: 2px 2px 10px white;
+}
+
+.img img {
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+  width: 100%;
+  height: 363px;
+  border-radius: 10px;
+}
+
+.title {
+  text-align: center;
+  padding: 6px 0px;
+}
+
+.desc {
+  text-align: center;
+}
+
+.desc button {
+  background-color: rgb(43, 41, 41);
+  color: white;
+  /* border: 1px solid #ede3e3; */
+  border-radius: 2px;
+  padding: 14px 52px;
+  margin-bottom: 7px;
+  margin: 39px 0px;
+  border-radius: 23px;
+}
+.desc button:hover {
+  color: rgb(227, 165, 8);
+  cursor: pointer;
+}
+
+/* .........................About-Us...................  */
+.about {
+  position: relative;
+  top: -250px;
+  /* border: 2px solid; */
+  margin: 0px 48px;
+  padding: 4px;
+  /* border: 2px solid red; */
+  width: 95%;
+  border-radius: 4px;
+  box-shadow: 0px 1px 16px -6px;
+  /* z-index: -1; */
+}
+.about-container {
+  display: inline-flex;
+  flex-direction: column;
+  width: 37%;
+  height: 612px;
+  margin: 2px 18px;
+}
+.about-container > h1 {
+  font-weight: 900;
+}
+.about-container > p {
+  margin: 29px 0px;
+}
+
+.about-img {
+  display: inline-flex;
+  width: 71%;
+  position: relative;
+  float: right;
+  margin: -256px -189px;
+}
+
+.about-img img {
+  /* margin: -125px 838px;
+  /* margin: -289px 838px; */
+  padding: 2px 0px;
+  width: 202%;
+  margin: -249px 875px;
+  /* margin: -289px 838px; */
+  padding: 2px 0px;
+  width: 185%;
+}
+
+/* ---------------------blog-img------------------ */
+
+.blog {
+  width: 100%;
+  height: auto;
+}
+
+.blog-container {
+  margin-top: -100px;
+}
+
+.blog-container > h1 {
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 310px;
+  font-size: 35px;
+  margin: 0px 565px;
+  font-weight: 700;
+}
+
+.blog-container > p {
+  position: relative;
+  top: 333px;
+  display: inline-block;
+  /* justify-content: center; */
+  color: white;
+  margin: 0px 59px;
+}
+
+.blog-container > img {
+  height: auto;
+  /* padding: 0px 162px; */
+}
+
+.play-icon {
+  position: absolute;
+  left: 12px;
+  margin: 365px 598px;
+}
+
+/* ----------------------------------testimonial-------------------------- */
+
+.testimonial {
+  display: inline-block;
+  /* border: 2px solid green; */
+  width: 87%;
+  margin: 46px 95px;
+  box-shadow: 0px 1px 16px -6px;
+  border-radius: 87px;
+}
+.testimonial-head {
+  display: flex;
+  margin: 37px;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.testimonial-container {
+  border: 2px solid;
+  margin: 54px 47px;
+  display: inline-flex;
+  flex-direction: column;
+  width: 398px;
+  height: 400px;
+  border-radius: 51px;
+  padding: 33px 19px;
+}
+
+.testimonial-img {
+  display: flex;
+  flex-direction: row;
+  margin: -504px 352px;
+  justify-content: center;
+  align-items: center;
+  width: 157%;
+}
+
+.testimonial-img img {
+  margin: 254px 43px;
+  /* padding: 2px 0px; */
+  width: 35%;
+}
+#testimonial-logo {
+  width: 51px;
+  display: flex;
+  flex-direction: column;
+  top: 147px;
+  left: -205px;
+  position: relative;
+}
+.testimonial-txt {
+  position: relative;
+  left: -84px;
+  margin: 2px -55px;
+}
+.whyus-head {
+  font-size: 45px;
+  display: flex;
+  justify-content: center;
+  margin: 159px 0px;
+}
+.whyus-para {
+  display: flex;
+  width: 90%;
+  position: relative;
+  justify-content: center;
+  margin: auto;
+  top: -106px;
+}
+
+/* .........................footer-section...................... */
+.footer-container {
+  position: relative;
+  top: 239px;
+}
+
+.footer-section > img {
+  position: relative;
+  z-index: -1;
+  margin-bottom: -225px;
+}
+.footer-input-btn {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  position: relative;
+  top: -579px;
+}
+.footer-input-btn > input {
+  padding: 18px 26px;
+  border-radius: 53px;
+  font-size: 18px;
+  width: 36%;
+}
+
+.footer-subscribe-btn {
+  float: right;
+}
+.footer-subscribe-btn > a {
+  /* width: 170px; */
+  width: 276px;
+  float: left;
+  font-size: 19px;
+  color: #2b2278;
+  background-color: transparent;
+  padding: 5px 0px;
+  text-align: center;
+  margin: -624px 469px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  justify-content: center;
+  position: relative;
+}
+
+.call-ico {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -550px;
+}
+
+.call-text > a {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -540px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.mail-ico {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -530px;
+  left: 7px;
+}
+
+.mail-text > a {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -520px;
+  text-decoration: none;
+  color: #fff;
+  left: 7px;
+}
+
+.social-ico > ul {
+  position: relative;
+  top: -500px;
+  justify-content: center;
+  display: flex;
+}
+.social-ico > ul > li {
+  text-decoration: none;
+  list-style: none;
+}
+
+.social-ico > ul > li > a > img {
+  padding: 2px 7px;
+}
+
+.copy-right {
+  display: flex;
+  justify-content: center;
+  margin-top: -27px 0px;
+  background: #071011;
+  padding: 129px 0px;
+  color: #fff;
+  width: 100%;
+  font-size: 24px;
+  font-weight: 900;
+  position: relative;
+  /* flex-direction: column; */
+  min-height: 100%;
+}
+
+/* Religious-page */
+
+.relheading {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  margin: 48px 0px;
+}
+
+.relcards {
+  position: relative;
+  margin-left: 55px;
+  top: -14px;
+  left: 29px;
+  margin: -109px 0px;
+}
+
+/* -----------Booking-page --------------- */
+
+.booking-container {
+  width: 86%;
+  height: auto;
+  margin: 38px auto;
+}
+.bookingheader {
+  display: flex;
+  color: #fff;
+  position: relative;
+  top: -275px;
+  left: -85px;
+  text-decoration: underline;
+}
+.bookingheader > h1 {
+  font-size: 32px;
+}
+.booking-container > form {
+  position: relative;
+  top: 12px;
+}
+
+.bookingform {
+  display: flex;
+  position: relative;
+  top: 70px;
+}
+.book:active ::after .nav-btn {
+  /* margin-top: 33px; */
+}
+.active::after {
+  /* font-size: 32px;
+            color: green;
+            font-weight: bold;
+            text-decoration: none; */
+}
+
+.dest {
+  padding: 15px 147px;
+  margin: 7px;
+  border-radius: 22px;
+}
+.book-btn {
+  padding: 11px 69px;
+  border-radius: 22px;
+  margin: 19px 539px;
+  position: relative;
+  left: 224px;
+  top: -120px;
+}
+.booktripbtn > a {
+  text-decoration: none;
+}
+.book-btn:hover {
+  color: rgb(227, 165, 8);
+  cursor: pointer;
+}
+
+/* ---------Input web-kit remover------------------ */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  /* margin: 0; */
+}
+
+/* --------payment-page----------- */
+.paymentcont {
+  width: 90%;
+  border: 8px;
+  border-radius: 15px;
+  border-color: #fff;
+}
+
+.paymentimg > img {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+.payment-container {
+  width: 79%;
+  /* border: 2px solid;
+  border-color: #fff;
+  border-radius: 73px; */
+  display: flex;
+  height: 344px;
+  /* margin: 0px 17px; */
+  margin: 39px auto;
+}
+.payment-desc > button {
+}
+
+.payment-card {
+  width: 25%;
+  /* height: auto; */
+  margin: -66px auto;
+}
+
+/* .paymentcard {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+} */
+
+.paymentimg img {
+  width: 100%;
+  height: 335px;
+  border-radius: 10px;
+}
+.booking-form {
+  margin: 94px;
+  display: inline-block;
+  position: relative;
+  top: -90px;
+}
